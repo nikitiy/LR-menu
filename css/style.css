@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #334777;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+html, body {
+    max-height: 100vh;
+}
+
+#cocktails, #wine, #alcohol, #soft {
+    display: none;
+}
+
+.wine {
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 7vh;
+    height: 7vh;
+    background-repeat: round;
+    background-image: url(https://static.tildacdn.com/tild3730-6361-4639-b665-646463366238/cocktails.png);
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.top {
+    padding-top: 15px;
+}
+
+.bottom {
+    position: fixed;
+    width: 100%;
+    left: 0; 
+    bottom: 0;
+}
+
